@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ML Model Input</title>
+  
+<style>  
+body{
+margin-top:5% ;
+ 
+background-image: linear-gradient(5deg, #1f1b1b 0%, #10828f 100%);
+margin-bottom: 264px;
+}
+
+form{
+background-image: linear-gradient(5deg, #022127 0%, #15747c 100%);
+box-shadow: 1px 2px 1px #e40b0b, 5px 5px 5px #b305aa;
+
+margin:10px 35% 5px 35%;
+padding:50px 10px;
+padding-top:40px;
+padding-bottom: 20px;
+text-align:center;
+color:white;
+
+}
+form:hover{
+  
+  box-shadow: 1px 1px 5px #e40b0b, 1px 5px 10px #b305aa,1px 5px 30px #070707;
+
+}
+h1{
+  background-image: linear-gradient(5deg, #2b8091 0%, #2b8091 100%);
+  box-shadow: 1px 1px 5px #19118a, 1px 5px 10px #961e96,1px 10px 30px #070707;
+color:rgb(212, 216, 218);
+font-weight: bold;
+text-shadow: 1px 1px 3px #e40b0b, 1px 1px 5px #b305aa;
+}
+form label{
+  color:rgb(253, 249, 249);
+font-size: larger;
+font-weight: bold;
+text-shadow: 0 0 3px #e40b0b, 0 0 5px #b305aa;
+}
+input[type=submit]{
+  font-size: large;
+  padding: 2%;
+  width:fit-content;
+  
+  background-image: linear-gradient(5deg, #070707 0%, #249daa 100%);
+  color:rgb(197, 185, 185);
+  text-shadow: 0 1px 3px #e40b0b, 0 1px 2px #b305aa;
+  font-size: large;
+  font-weight: bold;
+}
+input[type=text]{
+width:200px;
+padding:1%;
+font-weight:bold;
+}
+input[type=text]:hover{
+
+box-shadow: 1px 1px 5px #e40b0b, 3px 3px 5px #b305aa;
+
+}
+input[type=submit]:hover{
+
+  background-image: linear-gradient(5deg, #070707 40%, #249daa 100%);
+  box-shadow: 1px 1px 5px #e40b0b, 3px 3px 5px #b305aa;
+}
+
+</style>
+</head>
+<body>
+  <center><h1>ML Model Input</h1></center>
+
+  <form action="/predict" method="POST">
+    <label for="input1" >Input 1:</label>
+    <input type="text" id="input1" name="input1"><br><br>
+
+    <label for="input2">Input 2:</label>
+    <input type="text" id="input2" name="input2"><br><br>
+
+    <label for="input3">Input 3:</label>
+    <input type="text" id="input3" name="input3"><br><br>
+
+    <input type="submit" value="Run Model">
+  </form>
+</body>
+</html>
