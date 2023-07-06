@@ -44,4 +44,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any questions or suggestions, please feel free to reach out to me at [your-sathishkavimass@gmail.com](mailto:sathishkavimass@gmail.com).
+For any questions or suggestions, please feel free to reach out to me at [-sathishkavimass@gmail.com](mailto:sathishkavimass@gmail.com).
